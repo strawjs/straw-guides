@@ -105,5 +105,11 @@ Check with following steps:
 - :deciduous_tree: gradle (through `gvm` is recommended)
 - :red_circle: ruby 1.9.3 or higher
 - :man: middleman
+```
+gem install middleman
+```
 - :green_apple: node.js 0.8 or higher
 - :baby_chick: bower
+```
+npm install -g bower
+```
