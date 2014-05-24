@@ -10,18 +10,18 @@ Straw, a JS/Native bridge :tropical_drink: :tropical_drink:
 
 ## Prerequisites
 
-- xcode 5.1 or higher
-- ruby 1.9.3 or higher
-- cocoapods
+- :potable_water: xcode 5.1 or higher
+- :red_circle: ruby 1.9.3 or higher
+- :o2: cocoapods
 ```
 gem install cocoapods
 ```
-- middleman
+- :man: middleman
 ```
 gem install middleman
 ```
-- node.js 0.8 or higher
-- bower
+- :green_apple: node.js 0.8 or higher
+- :baby_chick: bower
 ```
 npm install bower -g
 ```
