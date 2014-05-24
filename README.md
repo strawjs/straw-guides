@@ -70,6 +70,7 @@ Write in config.rb (middleman):
 ```ruby
 ready do
     sprockets.append_path File.join root, 'bower_components'
+end
 ```
 
 Write in all.js (in middleman source):
