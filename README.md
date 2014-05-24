@@ -97,6 +97,13 @@ Check with following steps:
 
 # Android
 
+**Note**: This is one of the recommended ways. Using gradle and bower is optional. And you can replace `middleman` with any of your favorite static generators ( http://www.staticgen.com/ ).
+
 ## prerequisites
 
-- Android SDK
+- :cactus: Android SDK
+- :deciduous_tree: gradle (through `gvm` is recommended)
+- :red_circle: ruby 1.9.3 or higher
+- :man: middleman
+- :green_apple: node.js 0.8 or higher
+- :baby_chick: bower
