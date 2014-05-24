@@ -1,4 +1,4 @@
-Straw, the js/native bridge :tropical_drink: :tropical_drink:
+Straw, a JS/Native bridge :tropical_drink: :tropical_drink:
 
 ----
 
