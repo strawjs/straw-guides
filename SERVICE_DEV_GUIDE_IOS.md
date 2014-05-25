@@ -58,4 +58,8 @@ pod 'Straw', :git => 'https://github.com/strawjs/straw-ios.git', :tag => 'v0.3.5
 @end
 ```
 
+**4. Add tests.**
+
+**5. Add .podspec.**
+
 ### Build JS part
