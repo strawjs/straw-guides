@@ -19,6 +19,7 @@ JS part is the interface of the native implementation of the service in the WebV
 gem install cocoapods
 ```
 - :custard: xctool 0.1.5 or higher (optional)
+- :tropical_drink: gulp or :boar: grunt (optional)
 
 ## Steps
 
