@@ -1,4 +1,4 @@
-# Plugin Development Guide for Straw iOS
+# Service Development Guide for Straw iOS
 
 ## Concept
 
