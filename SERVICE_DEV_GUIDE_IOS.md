@@ -2,11 +2,11 @@
 
 ## Concept
 
-Straw iOS Service consists of two parts; Native part and JS part.
+Straw iOS Service consists of two parts; Service Backend and Service Frontend.
 
-Native part is a native implementation of service. And it includes actual service procedures.
+Service Backend is a native implementation of service. And it includes actual service procedures.
 
-JS part is the interface of the native implementation of the service in the WebView.
+Service Frontend is a JavaScript interface of the native implementation of the service in the WebView.
 
 
 ## Prerequisite
@@ -23,7 +23,7 @@ gem install cocoapods
 
 ## Steps
 
-### Build Native part
+### Build Service Backend
 
 **1. Create `Cocoa Touch Static Library` project with Xcode.**
 
@@ -62,4 +62,22 @@ pod 'Straw', :git => 'https://github.com/strawjs/straw-ios.git', :tag => 'v0.3.5
 
 **5. Add .podspec.**
 
-### Build JS part
+### Build Service Frontend
+
+**1. Start JavaScript project.**
+
+With `npm`, `gulp` (or `grunt`) and `karma` (or `testem`), start ordinary client-side JavaScript library.
+
+**2. Add straw-ios(core) and jQuery dependency.**
+
+With `bower` install straw-ios and jQuery.
+
+```
+bower init
+bower install --save jquery
+bower install --save straw-ios=https://github.com/strawjs/straw-ios.js
+```
+
+**3. Write source and test.**
+
+**4. Release a tag.**
