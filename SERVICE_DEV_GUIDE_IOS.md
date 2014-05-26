@@ -66,7 +66,7 @@ pod 'Straw', :git => 'https://github.com/strawjs/straw-ios.git', :tag => 'v0.3.5
 
 **1. Start JavaScript project.**
 
-With `npm`, `gulp` (or `grunt`) and `karma` (or `testem`), start ordinary client-side JavaScript library.
+With `npm`, `gulp` (or `grunt`) and `karma` (or `testem`), start an ordinary client-side JavaScript library.
 
 **2. Add straw-ios(core) and jQuery dependency.**
 
