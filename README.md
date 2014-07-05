@@ -11,17 +11,15 @@ Straw, a JS/Native bridge :tropical_drink: :tropical_drink:
 ## Prerequisites
 
 - :potable_water: xcode 5.1 or higher
-- :red_circle: ruby 1.9.3 or higher
-- :o2: cocoapods
+- :o2: cocoapods (ruby gem)
 ```
 gem install cocoapods
 ```
-- :man: middleman
+- :man: middleman (ruby gem)
 ```
 gem install middleman
 ```
-- :green_apple: node.js 0.8 or higher
-- :baby_chick: bower
+- :baby_chick: bower (node module)
 ```
 npm install bower -g
 ```
@@ -102,14 +100,12 @@ Check with following steps:
 ## prerequisites
 
 - :cactus: Android SDK
-- :deciduous_tree: gradle (through `gvm` is recommended)
-- :red_circle: ruby 1.9.3 or higher
-- :man: middleman
+- :deciduous_tree: gradle
+- :man: middleman (ruby gem)
 ```
 gem install middleman
 ```
-- :green_apple: node.js 0.8 or higher
-- :baby_chick: bower
+- :baby_chick: bower (node module)
 ```
 npm install -g bower
 ```
